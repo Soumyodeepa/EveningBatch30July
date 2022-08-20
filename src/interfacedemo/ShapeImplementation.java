@@ -4,7 +4,7 @@ public class ShapeImplementation {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		
+		
 //		Cir obj = new Cir();
 //		obj.testdefaultmethod();
 //		obj.setVal(600);
