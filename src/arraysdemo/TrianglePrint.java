@@ -6,12 +6,12 @@ public class TrianglePrint {
 
 		for(int row=1; row<=10; row++){
 			
-			for(int space=9; space>=row; space--){
+			for(int s=9; s>=row; s--){
 				System.out.print(" ");
 			}
 			
 			for(int col=1; col<=row; col++){
-				System.out.print("0 ");
+				System.out.print("* ");
 			}
 			System.out.println();
 		}

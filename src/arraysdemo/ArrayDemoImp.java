@@ -6,7 +6,7 @@ public class ArrayDemoImp {
 		// TODO Auto-generated method stub
 		
 		
-		int [] values = { 10, 100, 1000};
+		int [] values = { 10, 100, 1000,444};
 		
 		
 //		System.out.println(values[0]);
@@ -15,12 +15,12 @@ public class ArrayDemoImp {
 		
 		System.out.println(values.length);
 		
-//		for(int i=0; i < values.length; i++){
-//			System.out.println(values[i]);
-//		}
+		for(int i=0; i < values.length; i++){
+			System.out.println(values[i]);
+		}
 		
-		for( int val:values){
-			System.out.println(val);
+		for( int xyz:values){
+			System.out.println(xyz);
 		}
 		
 		

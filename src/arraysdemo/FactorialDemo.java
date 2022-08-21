@@ -4,7 +4,7 @@ public class FactorialDemo {
 
 	public static void main(String[] args) {
 
-		int x = 6;
+		int x = 5;
 
 		// 120
 
@@ -12,7 +12,7 @@ public class FactorialDemo {
 
 		for (int i = 1; i <= x; i++) {
 
-			factorial = factorial * i;
+			factorial *= i;
 		}
 
 		System.out.println("Factorial of the given number " + x + " is " + factorial);

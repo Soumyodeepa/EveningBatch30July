@@ -7,9 +7,9 @@ public class PrimeNumberRange {
 		
 		
 		
-		int end=99;
+//		int end=99;
 		
-		for(int start=50; start<=end; start++ ){
+		for(int start=2; start<=100; start++ ){
 			
 			boolean prime=true;
 			
