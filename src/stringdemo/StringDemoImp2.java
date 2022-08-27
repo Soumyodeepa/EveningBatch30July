@@ -9,6 +9,7 @@ public class StringDemoImp2 {
 		String str1=new String("Hello");
 		
 		String Str2= str1.concat(" World");
+		System.out.println(str1);
 		
 		str1=str1.concat(" Welcome");
 		

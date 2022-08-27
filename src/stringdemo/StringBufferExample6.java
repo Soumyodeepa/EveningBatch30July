@@ -10,7 +10,7 @@ public class StringBufferExample6 {
 		System.out.println(sb.length());
 		System.out.println(sb.capacity());// now 16
 		
-		sb.append("java is my favourite language");
+		sb.append("java is my favouritefavouritefavouritefavourite ");
 		
 		System.out.println(sb.capacity());// now (16*2)+2=34 i.e
 		System.out.println(sb.length());								// (oldcapacity*2)+2

@@ -7,15 +7,14 @@ public class StringBufferExample2 {
 		StringBuffer sb = new StringBuffer("HelloWorld");
 		
 //		sb.insert(1, "Java");// now original string is changed
-		
 //		System.out.println(sb);// prints HJavaello
 		
+		System.out.println(sb);
+		sb.replace(1,3,"tttttt");  
+		System.out.println(sb);//prints 
 		
-//		sb.replace(1,3,"Java");  
-//		System.out.println(sb);//prints 
-		
-		
-		sb.delete(1,3);  
+		System.out.println(".............");
+		sb.delete(1,8);  
 		System.out.println(sb);//prints
 	}
 }

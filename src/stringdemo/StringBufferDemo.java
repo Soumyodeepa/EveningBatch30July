@@ -5,7 +5,6 @@ import java.util.Date;
 public class StringBufferDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		String str = "Hello";
 
@@ -27,7 +26,7 @@ public class StringBufferDemo {
 		System.out.println("value before append " + sbuild);
 		sbuild.append(" World");
 		System.out.println("value before append " + sbuild);
-
+		System.out.println("....................");
 		
 		System.out.println("todays date and time is "+new Date());
 		
